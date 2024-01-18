@@ -1,20 +1,90 @@
-.bg-navbar{
-    background-color: #634097 !important;
-    height: 100px !important;
+#nav-bar {
+    background-color: #173a5e;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  #nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-bar li {
+    float: left;
+    /* Or use other positioning methods */
+  }
+  
+  #nav-bar li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #nav-bar li a:hover {
+    background-color: #37608e;
+  }
+  
+  .cus11{
+    
+    
+        height: 9px !important;
+        margin-bottom: 16px !important;
+        width: 13px !important;
+        color: black !important;
+    
+  }
+
+
+  .footer_bottom {
+    background: #24a4cb;
+    padding: 0px 0;
+    color: #fff;
 }
-.navbar-brand{
-    /* margin-top: 5px; */
+section{
+    display: block;
 }
-.main-nav{
-    margin-top: 5px;
+.copyright {
+    color: black;
+    font-size: 12px;
+    line-height: 40px;
+    margin: 0;
 }
 
-.navbox {
-    border: 0.5px solid #000;
-    padding: 0rem 0.5rem;
-    font-size: 0.775rem;
-    text-align: center;
-    background-color: #F5BD42;
-    text-transform: uppercase;
-    /* text-transform: uppercase; */
+.announcement{
+    height: 536px; 
+    background-color: #f6f7f7;
+}
+.row{
+    
+        padding: 26px 40px 0px 40px;
+    
+}
+.col-sm-3{
+    padding-top: 15px;
+    /* background-color: white; */
+}
+.col-sm-9{
+    padding-top: 15px;
+    /* background-color: white; */
+}
+.boxes {
+    background-color: white;
+    height: 350px;
+    padding: 15px 0px 1px 0px;
+}
+
+.boxes>hr, h5, p {
+    color: black;
+    padding: 0px 25px 0px 14px;
 }
